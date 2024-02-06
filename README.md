@@ -1,4 +1,4 @@
-#Data = Google Trends, BigQuery Public Data
+#Data = Google Trends, BigQuery Public Data 
 
 ##What is the time frame of the dataset?
 SELECT 
