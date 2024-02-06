@@ -1,6 +1,7 @@
 #Data = Google Trends, BigQuery Public Data 
 
 ##What is the time frame of the dataset?
+
 SELECT 
   min(week) as earliest_week, max(week) as latest_week
 FROM
