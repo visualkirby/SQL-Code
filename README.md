@@ -4,7 +4,8 @@ Please take a look and reach out if you have any questions. skirby@visualdreamla
 ## Links to code... 
 
 ### Practice SQL Quiz
-Data = Leetcode
+Data = Leetcode;
+https://github.com/visualkirby/SQL-Code/blob/main/SQL_practice.PDF
 
 ### Iowa Liquor Sales, 
 Data = BigQuery Public Data;
