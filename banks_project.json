@@ -1,0 +1,72 @@
+{
+  "project_id": "PROJ_SQL_CODE",
+  "group_id": "PROJECT_GROUP_ANALYTICS",
+
+  "title": "SQL Portfolio & Analytics Practice",
+  "short_summary": "Mixed SQL portfolio combining query challenges and applied analytics use cases",
+  "summary": "A comprehensive SQL portfolio combining algorithmic SQL challenges with applied analytics work. Includes query-based problem solving, exploratory analytics, and business-focused SQL use cases designed to demonstrate proficiency in relational data modeling, performance-aware querying, and analytical reasoning.",
+
+  "role_scope": "base|operations|supply_chain|finance",
+
+  "skills": [
+    "SQL",
+    "Relational Databases",
+    "Analytical Querying",
+    "Data Modeling",
+    "Problem Solving",
+    "Performance Optimization"
+  ],
+
+  "domains": [
+    "sql_analytics",
+    "data_analysis",
+    "business_intelligence",
+    "query_optimization"
+  ],
+
+  "tags": [
+    "sql",
+    "data_analysis",
+    "analytics_queries",
+    "problem_solving",
+    "portfolio_project"
+  ],
+
+  "datasets": [],
+
+  "components": [
+    {
+      "component_id": "COMP_SQL_CHALLENGES",
+      "name": "Algorithmic SQL Challenges",
+      "component_type": "algorithmic_sql",
+      "deliverable_type": "sql_queries",
+      "objective": "Strengthen SQL problem-solving skills through structured query challenges",
+      "business_value": "Demonstrates ability to write correct, efficient SQL under analytical constraints",
+      "files": [],
+      "tools": [
+        { "tool_label": "SQL", "tool_keyword": "sql" }
+      ],
+      "skills": [
+        { "skill_keyword": "sql_querying", "weight": 0.6 },
+        { "skill_keyword": "logical_reasoning", "weight": 0.4 }
+      ]
+    },
+
+    {
+      "component_id": "COMP_SQL_ANALYTICS_CASES",
+      "name": "Applied SQL Analytics Use Cases",
+      "component_type": "analytics_layer",
+      "deliverable_type": "analytical_queries_and_insights",
+      "objective": "Apply SQL to answer business and performance questions using real or realistic datasets",
+      "business_value": "Shows ability to translate raw data into actionable insights using SQL",
+      "files": [],
+      "tools": [
+        { "tool_label": "SQL", "tool_keyword": "sql" }
+      ],
+      "skills": [
+        { "skill_keyword": "data_analysis", "weight": 0.5 },
+        { "skill_keyword": "business_insights", "weight": 0.5 }
+      ]
+    }
+  ]
+}
