@@ -3,72 +3,158 @@
   "group_id": "PROJECT_GROUP_ANALYTICS",
 
   "title": "SQL Portfolio & Analytics Practice",
-  "short_summary": "Mixed SQL portfolio combining query challenges and applied analytics use cases",
-  "summary": "A comprehensive SQL portfolio combining algorithmic SQL challenges with applied analytics work. Includes query-based problem solving, exploratory analytics, and business-focused SQL use cases designed to demonstrate proficiency in relational data modeling, performance-aware querying, and analytical reasoning.",
+  "short_summary": "Mixed SQL portfolio combining query challenges, business analytics, and data engineering use cases",
+  "summary": "A comprehensive SQL portfolio combining algorithmic SQL challenges with applied business analytics and database engineering work. Includes performance-optimized queries, exploratory analysis, dimensional modeling, and ETL workflows designed to demonstrate proficiency in relational systems and decision-focused analytics.",
 
   "role_scope": "base|operations|supply_chain|finance",
+
+  "roles": [
+    "Data Analyst",
+    "BI Engineer",
+    "SQL Developer",
+    "Data Engineer",
+    "Operations Analyst",
+    "Financial Analyst"
+  ],
 
   "skills": [
     "SQL",
     "Relational Databases",
     "Analytical Querying",
     "Data Modeling",
+    "ETL Pipelines",
+    "Performance Optimization",
     "Problem Solving",
-    "Performance Optimization"
+    "Business Intelligence"
   ],
 
-  "repr_link": "https://github.com/visualkirby/SQL-Code",
+  "repo_link": "https://github.com/visualkirby/SQL-Code",
 
   "domains": [
     "sql_analytics",
-    "data_analysis",
     "business_intelligence",
-    "query_optimization"
+    "query_optimization",
+    "data_engineering",
+    "sports_analytics"
   ],
 
   "tags": [
     "sql",
-    "data_analysis",
-    "analytics_queries",
-    "problem_solving",
+    "analytics",
+    "etl",
+    "data_modeling",
+    "query_optimization",
     "portfolio_project"
   ],
 
   "datasets": [],
 
   "components": [
+
     {
       "component_id": "COMP_SQL_CHALLENGES",
-      "name": "Algorithmic SQL Challenges",
+      "name": "LeetCode SQL Challenges",
       "component_type": "algorithmic_sql",
       "deliverable_type": "sql_queries",
-      "objective": "Strengthen SQL problem-solving skills through structured query challenges",
-      "business_value": "Demonstrates ability to write correct, efficient SQL under analytical constraints",
-      "files": [],
+
+      "objective": "Develop advanced SQL problem-solving ability through structured challenges emphasizing correctness, efficiency, and edge-case handling.",
+      "business_value": "Demonstrates readiness for technical screening and production analytics by consistently delivering optimized, accurate SQL solutions.",
+
+      "component_link": "https://github.com/visualkirby/SQL-Code/blob/main/SQL_practice.PDF",
+
+      "files": [
+        "SQL_practice.PDF"
+      ],
+
       "tools": [
         { "tool_label": "SQL", "tool_keyword": "sql" }
       ],
+
       "skills": [
-        { "skill_keyword": "sql_querying", "weight": 0.6 },
-        { "skill_keyword": "logical_reasoning", "weight": 0.4 }
+        { "skill_label": "SQL Querying", "skill_keyword": "sql_querying", "weight": 0.6 },
+        { "skill_label": "Logical Reasoning", "skill_keyword": "logical_reasoning", "weight": 0.4 }
       ]
     },
 
     {
-      "component_id": "COMP_SQL_ANALYTICS_CASES",
-      "name": "Applied SQL Analytics Use Cases",
+      "component_id": "COMP_SQL_IOWA_LIQUOR",
+      "name": "Iowa Liquor Sales Analysis",
       "component_type": "analytics_layer",
       "deliverable_type": "analytical_queries_and_insights",
-      "objective": "Apply SQL to answer business and performance questions using real or realistic datasets",
-      "business_value": "Shows ability to translate raw data into actionable insights using SQL",
-      "files": [],
+
+      "objective": "Analyze category growth, regional demand, and margin trends using large-scale retail sales data in BigQuery.",
+      "business_value": "Supports data-driven merchandising and marketing strategies by identifying high-growth categories and profitable regions.",
+
+      "component_link": "https://github.com/visualkirby/SQL-Code/blob/main/Iowa_Liquor_Sales.PDF",
+
+      "files": [
+        "Iowa_Liquor_Sales.PDF"
+      ],
+
       "tools": [
+        { "tool_label": "BigQuery", "tool_keyword": "bigquery" },
         { "tool_label": "SQL", "tool_keyword": "sql" }
       ],
+
       "skills": [
-        { "skill_keyword": "data_analysis", "weight": 0.5 },
-        { "skill_keyword": "business_insights", "weight": 0.5 }
+        { "skill_label": "Data Analysis", "skill_keyword": "data_analysis", "weight": 0.5 },
+        { "skill_label": "Business Insights", "skill_keyword": "business_insights", "weight": 0.5 }
+      ]
+    },
+
+    {
+      "component_id": "COMP_SQL_GOOGLE_TRENDS",
+      "name": "Google Trends Search Analytics",
+      "component_type": "analytics_layer",
+      "deliverable_type": "analytical_queries_and_insights",
+
+      "objective": "Examine large-scale search behavior patterns to identify emerging topics and declining demand signals.",
+      "business_value": "Improves marketing efficiency by informing campaign planning and budget allocation using search trend intelligence.",
+
+      "component_link": "https://github.com/visualkirby/SQL-Code/blob/main/Google_Trends_Queries.PDF",
+
+      "files": [
+        "Google_Trends_Queries.PDF"
+      ],
+
+      "tools": [
+        { "tool_label": "BigQuery", "tool_keyword": "bigquery" },
+        { "tool_label": "SQL", "tool_keyword": "sql" }
+      ],
+
+      "skills": [
+        { "skill_label": "Trend Analysis", "skill_keyword": "trend_analysis", "weight": 0.5 },
+        { "skill_label": "Data Analysis", "skill_keyword": "data_analysis", "weight": 0.5 }
+      ]
+    },
+
+    {
+      "component_id": "COMP_SQL_NBA_DATABASE",
+      "name": "NBA Statistics Database & Analytics Layer",
+      "component_type": "etl_pipeline",
+      "deliverable_type": "analytical_data_models",
+
+      "objective": "Design and implement a relational database and ETL pipeline to support scalable NBA performance analytics.",
+      "business_value": "Enables high-performance querying and real-time analytics by organizing large sports datasets into optimized star schemas.",
+
+      "component_link": "https://github.com/visualkirby/Basketball_Data/blob/main/MySQL_server_upload.pdf",
+
+      "files": [
+        "MySQL_server_upload.pdf",
+        "NBA_Data_SQL_Queries.PDF"
+      ],
+
+      "tools": [
+        { "tool_label": "MySQL", "tool_keyword": "mysql" },
+        { "tool_label": "SQL", "tool_keyword": "sql" }
+      ],
+
+      "skills": [
+        { "skill_label": "Data Modeling", "skill_keyword": "data_modeling", "weight": 0.5 },
+        { "skill_label": "ETL Pipelines", "skill_keyword": "etl_pipelines", "weight": 0.3 },
+        { "skill_label": "Performance Optimization", "skill_keyword": "performance_optimization", "weight": 0.2 }
       ]
     }
+
   ]
 }
